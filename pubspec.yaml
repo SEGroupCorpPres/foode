@@ -1,0 +1,134 @@
+name: foode
+description: "Food delivery app"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  bloc: ^9.0.0
+  cloud_firestore: ^5.6.9
+  connectivity_plus: ^6.1.4
+  cupertino_icons: ^1.0.8
+  dartz:
+  equatable:
+  firebase_core: ^3.14.0
+  firebase_messaging: ^15.2.7
+  firebase_auth: ^5.6.0
+  firebase_storage: ^12.4.7
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  freezed_annotation: ^3.0.0
+  geolocator: ^14.0.1
+  get_it:
+  hive:
+  hive_flutter:
+  intl: ^0.20.2
+  json_annotation: ^4.9.0
+  lottie:
+  shared_preferences: ^2.5.3
+  permission_handler: ^12.0.0+1
+  yandex_mapkit: ^4.1.0
+  google_fonts:
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  fake_cloud_firestore:
+  firebase_auth_mocks:
+  firebase_storage_mocks:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+  freezed:
+  google_sign_in_mocks:
+  hive_generator:
+  json_serializable:
+  mocktail: ^1.0.4
+  very_good_analysis: ^9.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: SourceSans3
+      fonts:
+        - asset: assets/fonts/static/SourceSans3-Black.ttf
+        - weight: 900
+        - asset: assets/fonts/static/SourceSans3-BlackItalic.ttf
+        - style: italic
+        - weight: 900
+        - asset: assets/fonts/static/SourceSans3-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/static/SourceSans3-ExtraBoldItalic.ttf
+          style: italic
+          weight: 800
+        - asset: assets/fonts/static/SourceSans3-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/static/SourceSans3-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/static/SourceSans3-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/static/SourceSans3-SemiBoldItalic.ttf
+          style: italic
+          weight: 600
+        - asset: assets/fonts/static/SourceSans3-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/static/SourceSans3-MediumItalic.ttf
+          style: italic
+          weight: 500
+        - asset: assets/fonts/static/SourceSans3-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/static/SourceSans3-Italic.ttf
+          style: italic
+          weight: 400
+        - asset: assets/fonts/static/SourceSans3-Light.ttf
+          weight: 300
+        - asset: assets/fonts/static/SourceSans3-LightItalic.ttf
+          style: italic
+          weight: 300
+        - asset: assets/fonts/static/SourceSans3-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/static/SourceSans3-ExtraLightItalic.ttf
+          style: italic
+          weight: 200
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/fonts/static/
+    - assets/icons/
+    - assets/images/
+    - assets/lottie/
+    - assets/logo/
+    - assets/icons/av/
+    - assets/icons/card/
+    - assets/icons/file/
+    - assets/icons/main/
+    - assets/icons/maps/
+    - assets/icons/maps/trafficon/
+    - assets/icons/maps/trafficon/maps/
+    - assets/icons/alert/
+    - assets/icons/image/
+    - assets/icons/editor/
+    - assets/icons/social/
+    - assets/icons/social/publicon/
+    - assets/icons/social/publicon/social/
+    - assets/icons/toggle/
+    - assets/icons/actions/
+    - assets/icons/content/
+    - assets/icons/devices/
+    - assets/icons/hardware/
+    - assets/icons/navigation/
+    - assets/icons/communication/
+    - assets/icons/notifications/
+    - assets/images/pay/
+    - assets/images/auth/
+    - assets/images/dark/
+    - assets/images/food/
+    - assets/images/light/
+    - assets/images/splash/
+

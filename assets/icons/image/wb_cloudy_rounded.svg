@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Image / wb cloudy">
+<mask id="mask0_70_10261" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="4" width="24" height="16">
+<g id="Icon Mask">
+<path id="Round" d="M19.3558 10.04C18.6661 6.59 15.6374 4 11.9989 4C9.11011 4 6.60116 5.64 5.35168 8.04C2.34293 8.36 0.00390625 10.91 0.00390625 14C0.00390625 17.31 2.69279 20 6.00141 20H18.996C21.7548 20 23.9939 17.76 23.9939 15C23.9939 12.36 21.9448 10.22 19.3558 10.04Z" fill="black"/>
+</g>
+</mask>
+<g mask="url(#mask0_70_10261)">
+<rect id="Color Fill" width="24" height="24" fill="#858C94"/>
+</g>
+</g>
+</svg>
