@@ -454,4 +454,23 @@ class Sizes {
   // Mobile(0+) 1:1.125 Ratio
   final double largeScaleMobileSmallCapsLetterSpacing = 5;
   final double largeScaleMobileSmallCapsLightLetterSpacing = 6;
+
+  // button
+  final double borderRadius = 8;
+  final double borderWith = 2;
+  final double roundedBorderRadius = 32;
+  final double largeButtonWith = 141;
+  final double mediumButtonWith = 138;
+  final double smallButtonWith = 103;
+  final double roundedButtonWith = 95;
+  final double borderlessButtonWith = 95;
+  final double largeButtonHeight = 55;
+  final double mediumButtonHeight = 48;
+  final double smallButtonHeight = 37;
+  final double largeButtonPaddingVertical = 14;
+  final double mediumButtonPaddingVertical = 12;
+  final double smallButtonPaddingVertical = 8;
+  final double largeButtonPaddingHorizontal = 18;
+  final double mediumButtonPaddingHorizontal = 16;
+  final double smallButtonPaddingHorizontal = 12;
 }
